@@ -1,5 +1,5 @@
 This is a graphical and spatial music notation library. 
-Please understand that I'm only programming according to my notational needs for something different than conventional music notation software.    
+Please understand that this library is just starting to be developed and I'm only programming according to my notational needs for something different than conventional music notation software.    
 
 
 
