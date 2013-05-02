@@ -1,15 +1,15 @@
 import spatialnotation.*;
 
 SnAPI api;
-SnStaff s; 
+SnNote n; 
 
 void setup() {
 	size(600, 600);
 	api = new SnAPI(this);
-	s = new SnStaff();
+	n = new SnNote();
 	noLoop(); // noLoop() is currently required... 
 } 
 
 void draw() {
-	s.display(); 
+	n.display(); 
 }

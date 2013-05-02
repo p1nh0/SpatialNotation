@@ -81,10 +81,11 @@ public class SnStaff{
 	 * 
 	 * @return void
 	 */
+	
 	public void display(){
 		drawStaff(); 
 	}
-	
+
 	private void drawStaff() {
 		P.pushStyle(); 
 		P.strokeCap(PApplet.SQUARE);
@@ -95,7 +96,6 @@ public class SnStaff{
 			float inc = (height*P.height-weight)/(lines-1)*i + weight/2.f + (y*P.height);
 			P.line(x*P.width, inc, width*P.width, inc);
 		}
-		
 		P.popStyle();
 	}
 	
